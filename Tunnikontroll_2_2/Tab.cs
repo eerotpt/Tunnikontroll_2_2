@@ -8,5 +8,9 @@ namespace Tunnikontroll_2_2
 {
     class Tab
     {
+        public void Add(double aaa)
+        {
+
+        }
     }
 }

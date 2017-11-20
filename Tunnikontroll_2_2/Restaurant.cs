@@ -8,5 +8,14 @@ namespace Tunnikontroll_2_2
 {
     class Restaurant
     {
+        public Restaurant(string name, string address)
+        {
+
+        }
+
+        internal Receipt GetReceipt(Tab tab)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

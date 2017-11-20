@@ -20,6 +20,13 @@ namespace Tunnikontroll_2_2
             tab.Add(6.55);
             tab.Add(2.345);
 
+            foreach(var item in tab.Items)
+            {
+                Console.WriteLine(item);
+            }
+            
+            Console.ReadLine();
+
             Receipt receipt = restaurant.GetReceipt(tab);
 
             Console.Write(receipt);

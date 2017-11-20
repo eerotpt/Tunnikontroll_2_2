@@ -15,7 +15,7 @@ namespace Tunnikontroll_2_2
 
         internal Receipt GetReceipt(Tab tab)
         {
-            throw new NotImplementedException();
+            throw new Exception("Not ten characters");
         }
     }
 }
